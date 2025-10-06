@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(./venv/Scripts/python manage.py runserver:*)",
+      "Bash(netstat:*)",
+      "Bash(taskkill:*)",
+      "Bash(./venv/Scripts/python:*)",
+      "Bash(cat:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
